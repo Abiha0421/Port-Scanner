@@ -1,0 +1,10 @@
+{
+    "theme": "dark",
+    "color_theme": "dark-blue",
+    "banner_grab": true,
+    "json_only": false,
+    "aggressive": false,
+    "recent_targets": [
+        "127.0.0.1"
+    ]
+}
