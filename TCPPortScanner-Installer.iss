@@ -1,8 +1,4 @@
-; TCP Port Scanner Installer (64-bit)
-; Place this file: C:\Users\BT\Desktop\Tcp Port Scanner\TCPPortScanner-Installer.iss
-; NOTE: Make sure the Source path below points to the actual .exe file.
-; If you used the PyInstaller command above, the EXE will be:
-; C:\Users\BT\Desktop\Tcp Port Scanner\dist\TCPPortScanner.exe
+;
 
 [Setup]
 AppName=TCP Port Scanner
@@ -17,9 +13,6 @@ ArchitecturesAllowed=x64
 ArchitecturesInstallIn64BitMode=x64
 WizardStyle=modern
 
-[Files]
-; --- IMPORTANT: Ensure this Source path matches your built .exe (including .exe extension) ---
-Source: "C:\Users\BT\Desktop\Tcp Port Scanner\dist\TCPPortScanner.exe"; DestDir: "{app}"; DestName: "TCPPortScanner.exe"; Flags: ignoreversion
 
 [Icons]
 ; Start Menu shortcut
@@ -33,6 +26,7 @@ Name: "desktopicon"; Description: "Create a &desktop icon"; GroupDescription: "A
 [Run]
 ; Launch program after installation (post-install checkbox)
 Filename: "{app}\TCPPortScanner.exe"; Description: "Launch TCP Port Scanner"; Flags: nowait postinstall skipifsilent
+
 
 
 
