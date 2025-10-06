@@ -30,9 +30,6 @@ Install requirements:
 
 pip install -r requirements.txt
 
-🚀Download Link
-https://github.com/<Abiha0421/Port-Scanner/releases/download/v1.0/mysetup.exe
-
 Enter target IP/hostname and port range.
 
 Click Start Scan.
